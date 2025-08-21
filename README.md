@@ -1,4 +1,4 @@
-# CryptoScore - Blockchain-Based Credit Scoring Platform
+# CryptoScore - Blockchain-Based Credit Scoring Platform (CredTech Hackathon - 2025)
 
 A revolutionary blockchain-based credit scoring system for crypto lending with AI-powered risk assessment, built for the hackathon.
 
@@ -74,15 +74,6 @@ mvn spring-boot:run
 
 The backend API will be available at `http://localhost:8080/api`
 
-### Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8080/api
-NEXT_PUBLIC_BLOCKCHAIN_API_KEY=your_blockchain_api_key
-NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
-```
 
 ## 📱 Demo Flow
 
@@ -196,24 +187,9 @@ The application includes realistic sample data for demonstration:
 - **Forms**: Consistent styling with validation states
 - **Charts**: Cohesive color scheme and animations
 
-## 🚀 Deployment
-
-### Frontend (Vercel)
-```bash
-npm run build
-# Deploy to Vercel or your preferred platform
-```
-
-### Backend (Docker)
-```bash
-cd backend
-docker build -t cryptoscore-backend .
-docker run -p 8080:8080 cryptoscore-backend
-```
-
 ## 🤝 Contributing
 
-This is a hackathon project, but contributions are welcome:
+This is a CredTech hackathon project, but contributions are welcome:
 
 1. Fork the repository
 2. Create a feature branch
