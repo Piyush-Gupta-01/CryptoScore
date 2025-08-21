@@ -250,3 +250,4 @@ Traditional crypto lending relies on over-collateralization, limiting accessibil
 **Built with ❤️ for the Hackathon**
 
 *Revolutionizing crypto lending through blockchain-verified credit scoring*# CryptoScore
+# CryptoScore
